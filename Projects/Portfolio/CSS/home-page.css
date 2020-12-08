@@ -1,0 +1,91 @@
+
+body{
+    background-color: white;
+}
+
+header{
+    font-family: 'Cinzel', serif;
+}
+
+h1{
+    font-family: 'Cinzel', serif;
+    border-bottom: 1px solid #5B756C;
+    display: inline;
+
+}
+
+#navbar{
+
+    padding: 1rem 1rem;
+}
+
+li{
+    text-decoration: none;
+    display: inline-block;
+    background-color: #748B83;
+    opacity: .6;
+    color: white;
+    font-family: 'Cinzel', serif;
+    font-size: 24px;
+    padding: 0.2rem 0.5rem;
+    margin-top: 1rem;
+    
+}
+
+
+a {
+    text-decoration: none;
+    color:white;
+}
+
+#parallax1{
+    background-image: url(../images/Elodie.jpg);
+    height:500px;
+    background-attachment: fixed;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Cinzel', serif;
+    padding-top: 100px;
+    padding-left: 50px;
+    margin-bottom: 1rem;
+}
+@media screen and (max-width: 500px) {
+    #parallax1{
+        background-attachment: inherit;
+    }
+}
+
+.about{
+    background-color: #CCAC95;
+    color: white;
+    opacity: .6;
+    width: 25%;
+    padding: 4px 4px;
+    text-align: center;
+    display: block;
+    font-size: 12px
+}
+
+
+.about2 h2 {
+    font-family: 'Cinzel', serif;
+    border-bottom: 1px solid #5B756C;
+    display: inline;
+    font-size: 28px;
+}
+
+.about2 p {
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 2rem;
+}
+
+
+/* Color Theme Swatches in Hex */
+.Omega-Nebula-perso-1-hex { color: #9D7E5C; }
+.Omega-Nebula-perso-2-hex { color: #CCAC95; }
+.Omega-Nebula-perso-3-hex { color: #F7F3EC; }
+.Omega-Nebula-perso-4-hex { color: #5B756C; }
+.Omega-Nebula-perso-5-hex { color: #748B83; }
+

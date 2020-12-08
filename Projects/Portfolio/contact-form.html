@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="CSS/contact-form.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Cinzel" rel="stylesheet">
+    
+    <title>Contact</title>
+
+</head>
+    <body>
+
+        <header>
+            <div id="navbar">
+                <h1>Elodie Bouthors</h1>
+                <nav>
+                    <ul>
+                        <li><a href="Index.html">Home Page</a></li>
+                       <!-- <li><a href="aboutme.html">About Me</a></li>-->
+                       <li><a href="Portfolio.html">My Portfolio</a></li>
+                        <li><a href="contact-form.html">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+         </header>
+    
+       <main class="contact">
+            <section>
+                <h2>Contact Form</h2>
+                
+                <form action="submit.html" method="POST">
+            
+                <fieldset>
+                <legend><h2>contact information</h2></legend>
+                <div class="form-row">
+                <label for="name">Name</label>
+                 <input type="text" id="name" name="name" placeholder="First name">
+                </div>
+
+                <div class="form-row">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="Email address">
+                </div>
+                
+                <div class="form-row">
+                <label for="mytel">Phone number</label>
+                 <input type="tel" id="mytel" name="phone" placeholder= "Phone number">
+                </div>
+                </fieldset>
+
+                <fieldset>
+                 <legend><h2>How can I help you ?</h2></legend>
+                 
+                 <div class="form-row">
+                  <label for="contact">How should I contact you?</label>
+                 <select name="contact" id="contact">
+                  <option value="by phonel">Call me</option>
+                 <option value="email">Email me</option>
+                 
+                <div class="form-row">
+                   <label for="comments"</label>
+                    <textarea id="comments" name="comments" placeholder="Let me know what can I do for you" ></textarea>
+                </div>
+
+                </fieldset>
+                <button type="submit">Submit</button>
+               
+                </form>
+            </section>
+        </main>
+</body>
+</html>

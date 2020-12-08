@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Christmas Orders</title>
+	<link href="CSS/baking-form.css" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Cinzel" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.gstatic.com"> 
+	<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+
+	<div class="wrapper">
+		<section>
+			<h1>Christmas Baking Order Form</h1>
+			<p>Fill out the form below to place an order for our special Christmas baking .</p>
+			
+			<form action="submit.html" method="POST">
+				<input type="hidden"  name="send_to" value="elodiebouthors@hotmail.com">
+
+			<fieldset>
+			<legend>contact information</legend>
+			<label for="name"> Your name </label>
+				<input type="text" id="name" name="name">
+			<label for="phone">Phone number</label>
+			<input type="tel" id="phone" name="phone">
+			<label for ="email">Email</label>
+			<input type="email" id="email" name="email">
+			</fieldset>
+
+			<fieldset>
+			<legend>Your Order</legend>
+			
+			<label for= "date" >When do you want to pick up your order</label>
+			<input type="date" id="date" name="date">
+
+			<label>
+				<input id="cinnamonstars" name="cinnamonstars" type="checkbox" value="cinnamonstars">Pack of 20 Cinnamon Stars - $15
+			</label>
+
+
+			<label for= "qty">How many pack would you like to order ?</label>
+			<input type="number" id="qty" name="qty" min="1" max="10">
+
+			<label>
+				<input id="Old-Fashioned-Gingerbread" name="Old-Fashioned-Gingerbread" type="checkbox" value="Ginger-Bread">Old Fashioned Gingerbread - $20
+			</label>
+
+
+			<label for= "qty">How many gingerbread would you like to order ?</label>
+			<input type="number" id="qty" name="qty" min="1" max="10">
+
+			<label>
+				<input id="Min-Christmas-Cake" name="Mini-Christmas-Cake" type="checkbox" value="Mini-Cake"> Pack of 10 Mini Christmas Cake - $25
+			</label>
+
+
+			<label for= "qty">How many pack would you like to order ?</label>
+			<input type="number" id="qty" name="qty" min="1" max="10">
+
+			<label>
+				<input id="Yule-Log" name="Yule-Log" type="checkbox" value="Yule-Log"> Traditional French Bûche de Noël (Yule Log) - $50
+			</label>
+
+
+			<label for= "qty">How many yule log would you like to order ?</label>
+			<input type="number" id="qty" name="qty" min="1" max="10">
+
+
+			<p> What flavor do your want for your Yule Log?</p>
+
+			<label>
+			<input type="radio" name="Chocolate" value= "Chocolate">Chocolate
+			</label>
+
+			<label>
+				<input type="radio" name="Strawberry" value= "Strawberry">Strawberry
+			</label>
+
+			<div class="comments">
+			<label for="comments">Special requests:</label>
+			<textarea name="comments" id="comments"></textarea> 
+			</div>
+			
+
+		</fieldset>
+		<button type="submit">submit </button>
+
+			</form>
+
+		</section>
+		<aside>
+			<h2>Our Location</h2>
+
+			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d83461.8099765862!2d-124.00740106428242!3d49.17814126592391!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5488a15e20ac1c5b%3A0x50135152a7b0fd0!2sNanaimo%2C%20BC!5e0!3m2!1sen!2sca!4v1606957832327!5m2!1sen!2sca" width="400" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+
+			<address>
+				Nanaimo Fab' Bakery &middot;
+				10 commercial Street &middot;
+				Nanaimo, BC V9R 4W5, Canada
+			</address>
+		</aside>
+	</div>
+
+</body>
+</html>
+
+
+
+
+

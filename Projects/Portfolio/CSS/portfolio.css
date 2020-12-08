@@ -1,0 +1,85 @@
+header{
+    font-family: 'Cinzel', serif;
+    background-color:  white;
+    padding: 1rem 1rem;
+   
+}
+
+h1{
+    font-family: 'Cinzel', serif;
+    border-bottom: 1px solid #5B756C;
+    width: 30%;
+    display: inline;
+
+}
+
+#navbar li{
+    text-decoration: none;
+    display: inline-block;
+    background-color: #748B83;
+    opacity: .6;
+    color: white;
+    font-family: 'Cinzel', serif;
+    font-size: 24px;
+    padding: 0.2rem 0.5rem;
+    margin-top: 1rem;
+    
+}
+
+#navbar a {
+    text-decoration: none;
+    color:white;
+}
+
+
+.menu {
+    height: 500px;
+    display: flex;
+    position: relative;
+    background-image: url(..//images/woman.png);
+
+}
+
+.menu-box h2 {
+    padding-top: 0;
+    font-size: 2rem;
+    border-bottom: 1px solid #5B756C; 
+    font-family: 'Cinzel', serif;
+    
+}
+.menu-box ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+   
+}
+.menu-box a {
+    text-decoration: none;
+    display:block;
+    padding-bottom: 1.5rem;
+    font-size: 1.5rem;
+    color:black;
+    
+}
+
+.menu-box a:hover {
+    color:#F7F3EC; 
+}
+
+.menu-box {
+    margin: 5rem;
+    flex-basis: 48%;
+    background-color:#e2cdbe;
+    border-radius: 1rem;
+    padding: 2rem;
+    text-align: center;
+    opacity: 0.7 ;
+    
+}
+
+/* Color Theme Swatches in Hex */
+.Omega-Nebula-perso-1-hex { color: #9D7E5C; }
+.Omega-Nebula-perso-2-hex { color: #CCAC95; }
+.Omega-Nebula-perso-3-hex { color: #F7F3EC; }
+.Omega-Nebula-perso-4-hex { color: #5B756C; }
+.Omega-Nebula-perso-5-hex { color: #748B83; }
