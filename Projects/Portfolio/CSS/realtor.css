@@ -4,13 +4,12 @@ body{
 }
 
 .flex-container {
-    display: flex;
-    height: 450px;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    justify-content: space-around;
-    
+  display: flex;
+
+}
+.column {
+    flex: 33.33%;
+    padding: 5px;
   }
 
   h1 {
