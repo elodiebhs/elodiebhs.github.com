@@ -7,7 +7,7 @@ html {
 }
 body {
 	font-family: Georgia, 'Times New Roman', Times, serif;
-	background-image: url(.../images/backing.jpg);
+	background-image: url(Projects/Portfolio/images/backing.jpg);
 	background-size: cover; 
 	
 	margin: 0;
